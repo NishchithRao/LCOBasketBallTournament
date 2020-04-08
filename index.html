@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/sports-logo-transparent.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <title>LCO BasketBall Tournament</title>
+  </head>
+  <body>
+    <div class="landing-container">
+      <header>
+        <div class="nav-container flex-prop">
+          <div class="logo-container">
+            <a class="navbar-brand nav-mobile text-white" href="#">
+              <img
+                src="./img/sports-logo-transparent.png"
+                class="top-logo"
+                alt=""
+              />LCO</a
+            >
+          </div>
+          <div class="nav-item-container">
+            <nav
+              class="navbar navbar-expand-lg navbar-light"
+              id="lcobasketball"
+            >
+              <a class="navbar-brand pc-brand text-white" href="#">
+                <img
+                  src="./img/sports-logo-transparent.png"
+                  class="top-logo"
+                  alt=""
+                />LCO</a
+              >
+              <button
+                class="navbar-toggler navbar-dark"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-white">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#home"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#events">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#team">Our team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#faq">faq</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact"
+                      >contact us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <button
+                      class="btn sign"
+                      data-toggle="modal"
+                      data-target="#signindialog"
+                    >
+                      Sign In
+                    </button>
+                    <button
+                      class="btn sign mobile-btn"
+                      data-toggle="modal"
+                      data-target="#signupdialog"
+                    >
+                      Sign Up
+                    </button>
+                  </li>
+                  <li class="nav-item">
+                    <button
+                      class="btn sign pc-btn"
+                      data-toggle="modal"
+                      data-target="#signupdialog"
+                    >
+                      Sign Up
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div data-spy="scroll" data-target="#lcobasketball" data-offset="0">
+        <div class="px-5 py-5 home flex-prop" id="home">
+          <div class="left-wrapper">
+            <h1
+              class="animated 2s fadeInDown text-white display-1 text-capitalize"
+            >
+              Go fight for it,team
+            </h1>
+            <div class="animated 2s fadeInLeft delay-1s seperating-line"></div>
+            <h4
+              class="bounce text-white font-weight-light display-6 align-left"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam ullam quam nobis.
+            </h4>
+            <button
+              class="animated 2s delay-2s fadeInUp btn big-sign sign py-3"
+              data-toggle="modal"
+              data-target="#signupdialog"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div class="right-wrapper">
+            <img src="./img/artimg-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h1 class="text-white text-center display-4">About us</h1>
+        <div class="divider mx-auto mt-3 mb-5"></div>
+        <div class="about-content flex-prop">
+          <div class="left-wrapper">
+            <img src="./img/img4.png" class="img-responsive" alt="" />
+          </div>
+          <div class="right-wrapper">
+            <p class="text-white">
+              <span class="display-3 text-danger">L</span>orem ipsum dolor sit
+              amet consectetur adipisicing elit. Distinctio, magnam laborum
+              dolore saepe porro odio odit fugit excepturi rerum totam
+              aspernatur magni nulla numquam ducimus ipsam esse, blanditiis
+              nostrum iure.Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Distinctio, magnam laborum dolore saepe porro odio odit
+              fugit excepturi rerum totam aspernatur magni nulla numquam ducimus
+              ipsam esse, blanditiis nostrum iure.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+            <p class="text-white">
+              Distinctio, magnam laborum dolore saepe porro odio odit fugit
+              excepturi rerum totam aspernatur magni nulla numquam ducimus ipsam
+              esse, blanditiis nostrum iure.Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Distinctio, magnam laborum dolore
+              saepe porro odio odit fugit excepturi rerum totam aspernatur magni
+              nulla numquam ducimus ipsam esse, blanditiis nostrum iure.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video bg-white">
+        <h3 class="display-5 font-weight-light text-center py-3">
+          To know more about us,watch the video
+        </h3>
+        <div class="video-container text-center">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hqvGOPB0KmQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="mx-auto my-2 embed-responsive-item"
+          ></iframe>
+        </div>
+      </div>
+      <div class="events" id="events">
+        <h2 class="display-4 text-center text-white text-uppercase mb-4">
+          coming soon!
+        </h2>
+        <div class="divider mx-auto"></div>
+        <p class="text-center text-white mt-5">
+          We are happy to announce that we are organizing a
+          <span
+            class="display-5 font-weight-bold tournament px-2 py-2 text-capitalize"
+            >big basketball tournament</span
+          >
+        </p>
+        <div class="btn-container text-center">
+          <button
+            class="animated 2s delay-2s fadeInUp btn big-sign sign py-3"
+            data-toggle="modal"
+            data-target="#signupdialog"
+          >
+            Sign Up
+          </button>
+          <span class="text-white px-2">to know more!</span>
+        </div>
+      </div>
+      <div class="team bg-white px-5 pt-5" id="team">
+        <h1 class="display-2 text-center font-weight-light text-capitalize">
+          Meet the awesome team
+        </h1>
+        <div class="divider mx-auto"></div>
+        <p class="text-center mt-5 mb-3 font-weight-bold">
+          We have amazing players from all around the world!
+        </p>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide mx-auto my-5 pc-carousel"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active mx-auto">
+              <div class="row mx-auto text-center">
+                <div class="col-lg-4">
+                  <div class="card" style="height: auto; width: auto;">
+                    <div
+                      class="card-img-top"
+                      style="background-image: url('./img/img1.png');"
+                    ></div>
+                    <div class="card-body">
+                      <h1 class="text-center">John Doe</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card" style="height: auto; width: auto;">
+                    <div
+                      class="card-img-top"
+                      style="background-image: url('./img/img2.png');"
+                    ></div>
+                    <div class="card-body">
+                      <h1 class="text-center">John Doe</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card" style="height: auto; width: auto;">
+                    <div
+                      class="card-img-top"
+                      style="background-image: url('./img/img4.png');"
+                    ></div>
+                    <div class="card-body">
+                      <h1 class="text-center">John Doe</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row my-5 mx-auto">
+                <div class="col-lg-4">
+                  <div class="card" style="height: auto; width: auto;">
+                    <div
+                      class="card-img-top"
+                      style="background-image: url('./img/img1.png');"
+                    ></div>
+                    <div class="card-body">
+                      <h1 class="text-center">John Doe</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card" style="height: auto; width: auto;">
+                    <div
+                      class="card-img-top"
+                      style="background-image: url('./img/img2.png');"
+                    ></div>
+                    <div class="card-body">
+                      <h1 class="text-center">John Doe</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4"></div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="text-dark bg-dark carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="text-dark bg-dark carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div
+          id="carouselExampleControls1"
+          class="carousel slide mx-auto my-5 mobile-carousel"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active mx-auto">
+              <div class="card" style="height: auto; width: auto;">
+                <div
+                  class="card-img-top"
+                  style="background-image: url('./img/img1.png');"
+                ></div>
+                <div class="card-body">
+                  <h1 class="text-center">John Doe</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="height: auto; width: auto;">
+                <div
+                  class="card-img-top"
+                  style="background-image: url('./img/img2.png');"
+                ></div>
+                <div class="card-body">
+                  <h1 class="text-center">John Doe</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="height: auto; width: auto;">
+                <div
+                  class="card-img-top"
+                  style="background-image: url('./img/img4.png');"
+                ></div>
+                <div class="card-body">
+                  <h1 class="text-center">John Doe</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="height: auto; width: auto;">
+                <div
+                  class="card-img-top"
+                  style="background-image: url('./img/img1.png');"
+                ></div>
+                <div class="card-body">
+                  <h1 class="text-center">John Doe</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="height: auto; width: auto;">
+                <div
+                  class="card-img-top"
+                  style="background-image: url('./img/img2.png');"
+                ></div>
+                <div class="card-body">
+                  <h1 class="text-center">John Doe</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls1"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="text-dark bg-dark carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls1"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="text-dark bg-dark carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="faq" id="faq">
+        <h1
+          class="display-2 text-center mb-4 font-weight-light text-capitalize"
+        >
+          Frequently Asked Questions
+        </h1>
+        <div class="divider mx-auto"></div>
+        <p class="text-center mt-4 font-weight-bold">
+          Some common questions frequently asked by people
+        </p>
+        <div class="faq-content">
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link text-dark font-weight-bold"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    When will the event take pace?
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed text-dark font-weight-bold"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can i register for the tournament?
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed text-dark font-weight-bold"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Where will be the event conducted?
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link text-dark font-weight-bold"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="true"
+                    aria-controls="collapseFour"
+                  >
+                    How many teams will participate?
+                    <i class="fa fa-angle-down"></i>
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life
+                  accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                  non cupidatat skateboard dolor brunch. Food truck quinoa
+                  nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                  aliqua put a bird on it squid single-origin coffee nulla
+                  assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                  beer labore wes anderson cred nesciunt sapiente ea proident.
+                  Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                  beer farm-to-table, raw denim aesthetic synth nesciunt you
+                  probably haven't heard of them accusamus labore sustainable
+                  VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-img"></div>
+        </div>
+      </div>
+      <footer class="py-4 px-4 text-white" id="contact">
+        <h1
+          class="text-white display-3 font-weight-light text-center text-capitalize"
+          id="footerhead"
+        >
+          Contact us
+        </h1>
+        <div class="divider mx-auto my-3"></div>
+        <p class="text-center text-white mt-4 font-weight-bold">
+          Need more help? Feel free to contact us
+        </p>
+        <div class="footer-content flex-prop mt-5" id="footerContent">
+          <div class="address">
+            <h1>Visit us</h1>
+            <div class="font-weight-light">LCO Basketball Ground</div>
+            <div class="font-weight-light">
+              55 - Fictional Homes
+            </div>
+            <div class="font-weight-light">
+              Fictional Road Near Fictional Lake
+            </div>
+            <div class="font-weight-light">India.</div>
+            <div><span class="font-weight-bold"> Mob:</span> +91999999999</div>
+          </div>
+          <div class="newsletter">
+            <span class="subscribe display-4 font-weight-bold">Subscribe</span>
+            <span class="sub font-weight-light"> to our newsletter</span>
+            <form action="" class="my-3">
+              <div class="form-group">
+                <label for="email">Email </label>
+                <input
+                  type="email"
+                  placeholder="example@yahoo.com"
+                  class="form-control"
+                  id="email"
+                />
+              </div>
+              <div class="form-btn-container container">
+                <button class="btn text-white sign mx-auto btn-block">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="text-center text-block mx-auto sub font-weight-normal">
+          &copy;2020 LCO Tournament.All Rights Reserved
+        </div>
+      </footer>
+
+      <div class="modal" tabindex="-1" id="signupdialog" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Sign Up</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-group">
+                  <label for="name" class="font-weight-bold">Name</label>
+                  <input
+                    placeholder="John Doe"
+                    type="text"
+                    id="name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="font-weight-bold">Email</label>
+                  <input
+                    placeholder="example@yahoo.com"
+                    type="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="mobile">Mobile</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="1234567890"
+                    id="mobile"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="font-weight-bold"
+                    >Password</label
+                  >
+                  <input type="password" class="form-control" />
+                </div>
+                <button class="btn btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" tabindex="-1" id="signindialog" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Sign In</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="">
+                <div class="form-group">
+                  <label for="email" class="font-weight-bold">Email</label>
+                  <input
+                    placeholder="example@yahoo.com"
+                    type="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="font-weight-bold"
+                    >Password</label
+                  >
+                  <input type="password" class="form-control" />
+                </div>
+                <button class="btn btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

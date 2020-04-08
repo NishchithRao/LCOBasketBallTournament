@@ -1,0 +1,319 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: linear-gradient(45deg, #3023ae 0%, #ff0099 100%); */
+  background-color: #100142;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.pc-brand {
+  display: none;
+}
+.flex-prop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top-logo {
+  height: 60px;
+  width: auto;
+}
+.brand-mobile {
+  display: none;
+}
+nav ul li {
+  position: relative;
+}
+nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.right-wrapper img {
+  height: 500px;
+}
+.home {
+  padding: 30px;
+  height: auto;
+  align-items: flex-start;
+}
+.sign {
+  background-color: #ff8f26;
+  margin: 0px 5px;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s linear, color 0.3s linear,
+    outline 0.2s linear;
+}
+.big-sign {
+  color: white;
+  margin: 30px 0;
+  padding: 10px 30px;
+  font-size: 1.5rem;
+  transition: background-color 0.3s linear, color 0.3s linear,
+    outline 0.2s linear;
+}
+.seperating-line {
+  height: 8px;
+  width: 60%;
+  background-color: red;
+  margin: 20px 0;
+}
+.about {
+  background-color: #1a1a1a;
+  padding: 30px;
+}
+.divider {
+  height: 5px;
+  width: 50%;
+  background-color: red;
+}
+.about img {
+  position: relative;
+  height: 400px;
+  margin: 20px;
+}
+.about p {
+  text-indent: 10rem;
+}
+.about-content {
+  align-items: flex-start;
+}
+.video {
+  padding: 30px;
+}
+.events {
+  padding: 30px;
+}
+.events .tournament {
+  background-color: #8b3869;
+  font-size: 1.5rem;
+}
+.events .btn-container span {
+  font-size: 1.3rem;
+  font-weight: 200;
+}
+.team {
+  height: 160vh;
+  z-index: 1;
+}
+.carousel-item .row {
+  justify-content: space-evenly;
+}
+.carousel,
+.carousel-item {
+  width: 99%;
+}
+.card-img-top {
+  z-index: 1;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.faq {
+  z-index: 10;
+  padding-top: 30px;
+  background-color: #d7f1f8;
+}
+#accordion {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#accordion .card {
+  width: 600px;
+}
+.faq-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-img {
+  background-image: url("../img/artimg-1.png");
+  height: 400px;
+  width: 600px;
+  background-position: center;
+  background-size: cover;
+}
+.sign:hover,
+.big-sign:hover {
+  background-color: white;
+  color: black;
+  outline: 4px solid black;
+}
+footer .footer-content .address h1 {
+  color: #ff8f26;
+}
+.footer-content {
+  align-items: flex-end;
+}
+footer .sub {
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+footer .subscribe {
+  color: #ff8f26;
+}
+.modal-title {
+  color: #100142;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.modal button {
+  background-color: #100142;
+  color: #fff;
+  font-weight: bold;
+}
+.modal input {
+  color: #100142;
+  border: 1px solid gray;
+}
+.mobile-btn {
+  display: none;
+}
+.mobile-carousel {
+  display: none;
+}
+@media (max-width: 600px) {
+  .nav-mobile {
+    display: none;
+  }
+  .pc-brand {
+    display: initial;
+  }
+  .navbar,
+  .nav-container {
+    align-items: initial;
+  }
+  .nav-container {
+    display: block;
+  }
+  #navbarNav {
+    background-color: rgba(16, 1, 66, 0.5);
+  }
+  .pc-btn {
+    display: none;
+  }
+  .mobile-btn {
+    display: inline-block;
+  }
+  #navbarNav ul li:nth-last-child(2) {
+    margin: 0 auto;
+  }
+  .home .left-wrapper h1 {
+    font-size: 3rem;
+  }
+  .home .right-wrapper {
+    display: none;
+  }
+  .home {
+    padding: 10px;
+  }
+  .left-wrapper button.big-sign {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  .about {
+    padding: 10px;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about .left-wrapper img {
+    height: 200px;
+    margin: 10px auto;
+    margin-bottom: 0;
+  }
+  .about .left-wrapper {
+    margin: 0 auto;
+  }
+  .about .right-wrapper p {
+    text-indent: 1rem;
+    text-align: justify;
+  }
+  .events {
+    padding: 10px;
+  }
+  .events h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+  .events .tournament {
+    font-size: 1rem;
+    margin-top: 10px;
+    display: block;
+  }
+  #team {
+    padding: 20px !important;
+  }
+  .team h1,
+  .faq h1,
+  footer h1#footerhead {
+    font-size: 1.5rem !important;
+  }
+  #team p {
+    margin-bottom: 0;
+  }
+  #team #carouselExampleControls {
+    margin-top: 10px !important;
+  }
+  .mobile-carousel {
+    display: block;
+  }
+  .pc-carousel {
+    display: none;
+  }
+  .team {
+    height: auto;
+  }
+  .faq-content {
+    flex-direction: column;
+  }
+  .faq-img {
+    display: none;
+  }
+  #accordion .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #accordion {
+    margin-bottom: 20px;
+  }
+  footer #footerContent {
+    text-align: left;
+    margin-top: 15px !important;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .address {
+    margin: 30px 0;
+  }
+  footer .address h1 {
+    font-size: 1.4rem;
+  }
+  footer .newsletter {
+    margin: 40px 0;
+  }
+  footer .newsletter .subscribe {
+    font-size: 1.4rem;
+  }
+  footer .newsletter form .form-btn-container {
+    padding-left: 0;
+    margin: 10px 0 !important;
+  }
+  footer .sub {
+    margin: 15px 0 !important;
+    font-size: 1rem;
+    text-align: left !important;
+  }
+  iframe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto3;
+  }
+}
